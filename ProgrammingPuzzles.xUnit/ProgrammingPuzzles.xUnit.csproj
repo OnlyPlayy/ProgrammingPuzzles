@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApp1\ProgrammingPuzzles.csproj" />
+    <ProjectReference Include="..\ProgrammingPuzzles\ProgrammingPuzzles.csproj" />
   </ItemGroup>
 
   <ItemGroup>
