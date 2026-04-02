@@ -1,7 +1,7 @@
+# Instructions:
 <details>
 <summary>Binary Gap</summary>
 <br>
-###Instructions:
 A binary gap in a positive integer N is any maximal sequence of consecutive zeros in N’s binary representation that is bounded by ones on both sides.
 
 Examples:
