@@ -1,0 +1,1 @@
+This repository focuses on practicing my programming skills and testing functionalities. Next to programming challenges found on the internet and completed by myself, there are Unit tests I wrote to double check if the program works as intended
