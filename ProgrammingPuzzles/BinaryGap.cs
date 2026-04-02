@@ -4,6 +4,9 @@
     {
         public int solution(int N)
         {
+            if (N < 1 || N > 2147483647)
+                return 0;
+
             string binaryString = Convert.ToString(N, 2);
             var binary = binaryString.ToArray();
 
