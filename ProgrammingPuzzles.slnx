@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="ProgrammingPuzzles.xUnit/ProgrammingPuzzles.xUnit.csproj" Id="98103ca1-e075-4847-8284-1fad11387460" />
-  <Project Path="ProgrammingPuzzles/ProgrammingPuzzles.csproj" Id="bf7715da-e851-41c8-9c59-410d9f86396d" />
+  <Project Path="ProgrammingPuzzles/ProgrammingPuzzles.csproj" Id="bf7715da-e851-41c8-9c59-410d9f86396d">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
 </Solution>
