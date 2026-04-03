@@ -26,3 +26,28 @@ Example:
 
 Requirement: provide an efficient algorithm that adheres to the input constraints.
 </details>
+
+<details>
+<summary>Cyclic Rotation</summary>
+<br>
+Given an array A of N integers, a single rotation moves every element one position to the right and places the last element at the front. For example, rotating A = [3, 8, 9, 7, 6] once yields [6, 3, 8, 9, 7].
+
+Write a function:
+
+class Solution { public int[] solution(int[] A, int K); }
+
+that returns the array A after performing K such rotations.
+
+Examples:
+
+    A = [3, 8, 9, 7, 6], K = 3 -> [9, 7, 6, 3, 8] (three rotations: [3,8,9,7,6] -> [6,3,8,9,7] -> [7,6,3,8,9] -> [9,7,6,3,8])
+    A = [0, 0, 0], K = 1 -> [0, 0, 0]
+    A = [1, 2, 3, 4], K = 4 -> [1, 2, 3, 4]
+
+Constraints:
+
+    0 ≤ N, K ≤ 100
+    Each element of A is between −1,000 and 1,000
+
+Focus on correctness; performance is not evaluated.
+</details>
